@@ -1,0 +1,1 @@
+- Inicie a fake api com `json-server ./src/services/server.json --host 192.168.0.149 --port 3333 --delay 700`. Substitua o host pelo seu endereço IP local. Faça o mesmo no arquivo API dentro de services.

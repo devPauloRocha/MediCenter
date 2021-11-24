@@ -1,0 +1,138 @@
+{
+  "remedys_water_frequencies": [
+    {"key": "day", "title": "Todos os dias"},
+    {"key": "week", "title": "A cada semana"}
+  ],
+
+  "remedys_environments": [
+    {"key": "cardiaco", "title": "Cardíacos"},
+    {"key": "vitamina", "title": "Vitaminas"},
+    {"key": "articulacao", "title": "Articulação"},
+    {"key": "memoria", "title": "Memoria"},
+    {"key": "renal", "title": "Renais"},
+    {"key": "osseo", "title": "Ósseo"}
+  ],
+
+  "remedys": [
+    {
+      "id": 1,
+      "name": "Captopril",
+      "about": "Captopril é indicado no tratamento da insuficiência cardíaca congestiva em associação com diuréticos e digitálicos. O efeito benéfico de captopril na insuficiência cardíaca não requer a presença de digitálicos.",
+      "water_tips": "História de hipersensibilidade prévia ao captopril ou qualquer outro inibidor da enzima conversora da angiotensina (p.ex., paciente que tenha apresentado angioedema durante a terapia com qualquer outro inibidor da ECA).",
+      "photo": "http://192.168.0.149/remedios/1.svg", 
+      "environments": ["cardiaco"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Dorflex",
+      "about": "Dorflex é indicado no alívio da dor associada a contraturas musculares, incluindo dor de cabeça tensional. Dorflex possui ação analgésica e relaxante muscular. O início da ação ocorre a partir de 30 minutos.",
+      "water_tips": "Este medicamento não deve ser utilizado por mulheres grávidas sem orientação médica ou do cirurgião-dentista. Informe imediatamente seu médico em caso de suspeita de gravidez.",
+      "photo": "http://192.168.0.149/remedios/2.svg",
+      "environments": ["osseo"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Xarelto",
+      "about": "A substância ativa de Xarelto® é a rivaroxabana, que pertence a um grupo de medicamentos chamados de agentes antitrombóticos, os quais impedem a formação do trombo, ou seja, impedem a coagulação do sangue no interior do vaso sanguíneo. Xarelto® (rivaroxabana) age inibindo a ação do fator de coagulação Xa (elemento necessário para a formação do coágulo) e reduz assim a tendência do sangue formar coágulos.",
+      "water_tips": "Se você for alérgico hipersensível à rivaroxabana ou a qualquer outro componente de Xarelto rivaroxabana. Os componentes do produto estão listados no início da bula Se você está com sangramento que requer cuidados especiais por exemplo, sangramento intracraniano, sangramento gastrintestinal; Se você tem doença hepática grave que leva a um aumento de risco de sangramento; Se você está grávida ou amamentando.",
+      "photo": "http://192.168.0.149/remedios/3.svg",
+      "environments": ["renal", "memoria"],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Saxenda",
+      "about": "Saxenda® é indicado em associação a uma dieta hipocalórica e aumento do exercício físico para controle crônico de peso em adultos com Índice de Massa Corporal (IMC)",
+      "water_tips": "Se você for alérgico (hipersensível) à liraglutida ou a qualquer outro componente de Saxenda®. Se você não tiver certeza, converse com seu médico antes de utilizar Saxenda®.",
+      "photo": "http://192.168.0.149/remedios/4.svg",
+      "environments": ["cardiaco"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Neosaldina",
+      "about": "Neosaldina® é um medicamento com atividade analgésica (diminui a dor) e antiespasmódica (diminui contração involuntária) indicado para o tratamento de diversos tipos de dor de cabeça, incluindo enxaquecas ou para o tratamento de cólicas.",
+      "water_tips": "Você não deve tomar Neosaldina® se tiver alergia ou intolerância a qualquer componente da fórmula. Você também não deve tomar Neosaldina® nas crises de hipertensão arterial (pressão alta), na presença de alteração nas qualidades do sangue ou na proporção de seus elementos constituintes ou de determinadas doenças metabólicas, como porfiria ou a deficiência congênita da glicose-6-fosfato-desidrogenase Você só deve usar Neosaldina® em doses mais altas e por período prolongado se o médico recomendar.",
+      "photo": "http://192.168.0.149/remedios/5.svg",
+      "environments": ["articulacao"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Addera D3",
+      "about": "Addera D3 (colecalciferol) é um medicamento a base de vitamina D, indicado como suplemento vitamínico em dietas restritivas e inadequadas. É destinado à prevenção e tratamento auxiliar na desmineralização óssea (retirada dos minerais dos ossos) pré e pós-menopausa, e na prevenção de raquitismo (enfraquecimento dos ossos).",
+      "water_tips": "Este medicamento não deve ser utilizado em pacientes que apresentam hipersensibilidade aos componentes da fórmula. É contraindicado também em pacientes que apresentam hipervitaminose D (excesso de vitamina D), elevadas taxas de cálcio ou fosfato na corrente sanguínea e também em casos de má-formação nos ossos.",
+      "photo": "http://192.168.0.149/remedios/6.svg",
+      "environments": ["vitamina", "articulacao"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Glifage",
+      "about": "Glifage® é um medicamento antidiabético de uso oral, que associado a uma dieta apropriada, é utilizado para o tratamento do diabetes tipo 2, isoladamente ou em combinação com outros antiadiabéticos orais, como por exemplo aqueles da classe das sulfonilureias. Pode ser utilizado também para o tratamento do diabetes tipo 1 em complementação à insulinoterapia.",
+      "water_tips": "Glifage® deve ser usado com cautela em pacientes idosos que, em geral não devem receber a dose máxima do produto.",
+      "photo": "http://192.168.0.149/remedios/7.svg",
+      "environments": ["renais"],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Torsilax",
+      "about": "Torsilax® é um medicamento indicado para o tratamento de reumatismo (conjunto de doenças que pode afetar as articulações, músculos e esqueleto, caracterizado por dor, restrição de movimento e eventual presença de sinais inflamatórios) é também indicado como coadjuvante em processos inflamatórios graves decorrentes de quadros infecciosos.",
+      "water_tips": "O uso em pacientes idosos (pacientes geralmente mais sensíveis aos medicamentos) deve ser cuidadosamente observado. Pessoas idosas que fazem uso de Torsilax® devem ser acompanhadas com cuidado, pois apresentam maior risco de depressão respiratória e de eventos adversos gastrintestinais.",
+      "photo": "http://192.168.0.149/remedios/8.svg",
+      "environments": ["cardiaco"],
+      "frequency": {
+        "times": 4,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Victoza",
+      "about": "Victoza® é usado para tratar diabetes mellitus tipo 2 quando dieta e exercício sozinhos já não conseguem controlar seu nível de açúcar no sangue. Victoza® pode ser usado junto com outros medicamentos para diabetes quando estes não são suficientes para controlar seu nível de açúcar no sangue.",
+      "water_tips": "Não é necessário ajuste na dose com base na idade. A idade não apresentou efeito clinicamente relevante na farmacocinética de liraglutida 3,0 mg, com base na análise farmacocinética populacional de pacientes com sobrepeso ou obesidade (18 a 82 anos).",
+      "photo": "http://192.168.0.149/remedios/9.svg",
+      "environments": ["cardiaco" , "memoria"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Puran T4",
+      "about": "Terapia de reposição ou suplementação hormonal (de hormônio) em pacientes com hipotireoidismo (produção insuficiente de hormônio pela glândula tireoide) de qualquer causa (exceto no hipotireoidismo transitório, durante a fase de recuperação de tireoidite subaguda-doença inflamatória da glândula tireoide).",
+      "water_tips": "No idoso, a integridade do sistema cardiovascular pode estar comprometida. Por isso, neste paciente a terapia com Puran T4 deve ser iniciada com doses baixas, como por exemplo: 25-50 mcg/dia.",
+      "photo": "http://192.168.0.149/remedios/10.svg",
+      "environments": ["renal"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "day"
+      }
+    }
+  ]
+}
